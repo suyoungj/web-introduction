@@ -1,0 +1,109 @@
+* {
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+a:visited {
+	color: blue;
+}
+
+table,
+th,
+td {
+	border: 1px solid #333;
+	border-collapse: collapse;
+}
+
+th {
+	padding: 1em;
+}
+
+td {
+	text-align: center;
+}
+
+table .movie-title {
+	font-size: 20px;
+	font-weight: 900;
+}
+
+table .poster {
+	width: 20%;
+
+	padding: 1em 0;
+}
+
+table .plot {
+	width: 55%;
+	padding: 0 2em;
+	text-align: left;
+
+	font-size: 18px;
+
+	line-height: 1.5;
+}
+
+button {
+	padding: 0.3em;
+
+	font-size: 16px;
+}
+
+input[class='checkbox'] {
+	width: 20px;
+	height: 20px;
+}
+
+.container {
+	margin-top: 2em;
+	margin-bottom: 3em;
+
+	margin: 2em 4em 3em;
+}
+
+.intro {
+	margin-bottom: 2em;
+	font-size: 20px;
+}
+
+.intro-title {
+	margin-bottom: 0.5em;
+}
+
+.intro-list {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.favorite-movies {
+	margin-bottom: 2em;
+}
+
+.favorite-movies .title {
+	margin-bottom: 0.5em;
+}
+
+.guest-book {
+	width: 800px;
+
+	margin: 0 auto;
+
+	font-size: 18px;
+}
+
+#username {
+	margin-top: 1em;
+}
+
+.checkbox-container {
+	display: flex;
+
+	margin: 1em 0;
+	gap: 8px;
+}
